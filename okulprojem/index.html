@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        .header{
+            padding:60px;
+            background-color: darkslategrey;
+            color:white;
+            text-align:center;
+        }
+        .navbar{
+            display:flex;
+            justify-content: center;
+            background-color:black;
+         }
+        .navbar a{
+            text-decoration:none;
+            padding:14px 20px;
+            color:wheat;
+            text-align: center;
+        }
+        .navbar a:hover{
+            background-color:white;
+        }
+        .row{
+            display:flex;
+        }
+        .side{
+            flex:25%;
+            background-color:antiquewhite;
+            padding:20px;
+        }
+        .main{
+            flex:75%
+        }
+        .fakeimg {
+            background-color: darkgray;
+            padding:20px;
+            margin-top:10px;
+        }
+        .main{
+            margin-left:10px;
+        }
+        @media screen and (max-width:700px)
+        {
+            .row, .navbar{
+                flex-direction:column;
+            }
+        }
+
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1> Projem </h1>
+        <p> Örnek <b>Web </b> Sitem </p>
+    </div>
+    <div class="navbar">
+        <a href="#">Anasayfa</a>
+        <a href="#">Hakkında</a>
+        <a href="#">İletişim</a>
+
+    </div>
+    <div class="row">
+        <div class="side">
+            <h2>Hakkında</h2>
+            <h5>Photo of me</h5>
+            <img src="duvar.png" style="height: 200px; width: 200px;">
+            <h3>More Text</h3>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ratione, voluptates! </p>
+            <img src="duvar2.png" style="height: 80px; width: 200px;">
+            <img src="duvar2.png" style="height: 80px; width: 200px;">           
+            <img src="duvar2.png" style="height: 80px; width: 200px;">
+        </div>
+        <div class="main">
+            <h1> Konu Basligi </h1>
+            <p> 01.03.2023 tarihinde yapilmistir. </p>
+            <div class="fakeimg" style="height:200px;"> Image</div>
+            <p>Some Text</p>
+
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Modi cupiditate non quasi fugiat autem sapiente, voluptate quibusdam beatae recusandae labore a in temporibus? Assumenda molestiae praesentium eos reiciendis ducimus exercitationem earum eaque reprehenderit consequuntur vero. Repellendus vero placeat doloremque voluptatem! Culpa soluta harum animi incidunt obcaecati doloribus doloremque, iure quo ipsam architecto nisi delectus similique ratione repudiandae voluptate magnam corrupti?</p>
+
+            <h1> Konu Basligi </h1>
+            <p> 01.03.2023 tariihnde yapilmistir</p>
+            <div class="fakeimg" style="height:200px;"> Image</div>
+            <p>Some Text</p>
+
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam dolor cumque commodi, mollitia repellendus id aut eos adipisci! Consequatur tenetur quo quaerat dolores quasi impedit libero repellendus, odit doloremque quis, corporis, similique expedita distinctio necessitatibus? Impedit sint dignissimos quod voluptate, cum et qui exercitationem recusandae! Tempore porro exercitationem beatae amet.</p>
+        </div>
+    </div>
+</body>
+</html>
